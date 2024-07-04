@@ -1,8 +1,13 @@
 
+
+import HomeWidgets from "./_components/HomeWidgets";
+import PageHeading from "./_components/PageHeading";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Homepage</h1>
-    </main>
+    <>
+      <PageHeading heading={"Homepage"}/>
+      <HomeWidgets/>
+    </>
   );
 }

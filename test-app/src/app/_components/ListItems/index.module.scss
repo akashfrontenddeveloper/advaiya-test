@@ -1,0 +1,42 @@
+.listItems {
+    .listItem {
+        display: flex;
+        margin-bottom: 2rem;
+        border: solid 1px #ccc;
+        border-radius: 8px;
+        padding: 1rem;
+        width: 90%;
+        cursor: pointer;
+        &.selected {
+            border-color: #0096FF;
+        }
+        @media(min-width: 992px) {
+            max-width: 55%;
+        }
+        figure {
+            margin: 0;
+            img {
+                border-radius: 8px;
+            }
+        }
+        aside {
+            flex: 1;
+            padding-left: 1rem;
+            position: relative;
+            h4 {
+                margin: 0;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            svg {
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                left: calc(100% + 2rem);
+                top: 50%;
+                transform: translateY(-50%);
+                color: #0096FF;
+            }
+        }
+    }
+}

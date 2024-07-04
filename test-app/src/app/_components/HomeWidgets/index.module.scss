@@ -1,0 +1,25 @@
+.homeWidgets {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    @media(min-width: 992px) {
+        flex-direction: row;
+    }
+    a {
+        border: solid 1px #ccc;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        @media(min-width: 992px) {
+            &:not(:last-child) {
+                margin-right: 1.5rem;
+            }
+            &:hover {
+                background-color: #eee;
+            }
+        }
+    }
+}

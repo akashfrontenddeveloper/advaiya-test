@@ -1,0 +1,30 @@
+.hamburger {
+    border: none;
+    background: none;
+    margin-left: -0.75rem;
+    transition: all 0.3s;
+    opacity: 0.8;
+    text-decoration: none;
+    svg {
+        width: 32px;
+        height: 32px;
+        color: #000;
+    }
+    &:hover {
+        opacity: 1;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.offcanvasBody {
+    padding: 0;
+    a {
+        padding: .75rem 1.5rem;
+        display: block;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}

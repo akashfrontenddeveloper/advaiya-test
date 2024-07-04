@@ -1,0 +1,22 @@
+[
+    {
+        "text": "Home",
+        "link": "/"
+    },
+    {
+        "text": "Menu",
+        "link": "/menu"
+    },
+    {
+        "text": "My Favourites",
+        "link": "/my-favourites"
+    },
+    {
+        "text": "Random Meal",
+        "link": "/random-meal"
+    },
+    {
+        "text": "About Me",
+        "link": "/about-me"
+    }
+]
